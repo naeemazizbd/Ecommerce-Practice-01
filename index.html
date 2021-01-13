@@ -3,13 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <title>ELECTRONICS BAR</title>
 </head>
 <body>
-    <h1>Hello, world!</h1>
+    <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Membership</a>
+                </li>
+              </ul>
+              
+              <form class="form-inline  ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn catagory-btn mr-5 my-2 my-sm-0" type="submit">Search</button>
+              </form>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                      <i class=" bi bi-basket-fill">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-color bi-basket-fill" viewBox="0 0 16 16">
+                    <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+                  </svg></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-bookmarks-fill"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-color bi-bookmarks-fill" viewBox="0 0 16 16">
+                    <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                    <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                  </svg></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    
+    <section class="container mySlide mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="row  d-flex align-items-center p-5">
+                   <div class="col-md-7">
+                        <h1>Entertainment for happy life <br>Entertainment for happy life</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius laudantium deleniti ea error. Adipisci quam eius consectetur dolorem perferendis quod provident, enim quia quibusdam explicabo commodi praesentium excepturi velit temporibus.</p>
+                        <a class="btn btn-xs catagory-btn" href="#" role="button">More Info</a>
+                       </div>
+                   <div class="col-md-5 slide-image">
+                    <img src="images/girl-with-m-1.png" class="d-block w-100" alt="...">
+                   </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center p-5">
+                    <div class="col-md-7 ">    
+                        <h1>Entertainment for happy life<br>Entertainment for happy life</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, repellat facilis provident similique quod voluptatem molestiae unde nemo doloribus. Ducimus totam doloribus numquam voluptate quisquam, tempora ratione deserunt at ea?</p>     
+                        <a class="btn btn-xs catagory-btn" href="#" role="button">More Info</a>
+                       </div>  
+                    <div class="col-md-5 slide-image">
+                        <img src="images/girl-with-m-2.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center p-5">
+                    <div class="col-md-7"> 
+                            <h1>Entertainment for happy life<br>Entertainment for happy life</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime labore nulla dolorum. Consectetur porro cumque voluptatibus iusto obcaecati beatae molestiae? Voluptatum at culpa placeat eos voluptatibus magnam vero blanditiis eum!</p>
+                            
+                            <a class="btn btn-xs catagory-btn" href="#" role="button">More Info</a>
+                           </div>
+                    <div class="col-md-5 slide-image">
+                        <img src="images/girl-with-m-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section class="container  ">
+        
+        <div class="d-flex justify-content-center flex-wrap mt-3">
+            <div class="col mt-2">
+                <div class=" rounded d-flex align-items-center justify-content-around">
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                </div>
+            </div> 
+            <div class="col mt-2">
+                <div class=" rounded d-flex align-items-center justify-content-around">
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                </div>
+            </div> 
+            <div class="col mt-2">
+                <div class=" rounded d-flex align-items-center justify-content-around">
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                </div>
+            </div> 
+            <div class="col mt-2">
+                <div class=" rounded d-flex align-items-center justify-content-around">
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                </div>
+            </div> 
+            <div class="col mt-2">
+                <div class=" rounded d-flex align-items-center justify-content-around">
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="container mt-5">
+        <h1 id="Shoes">Smart Android Phones</h1>
+        <div class="card-deck  ">
+            <div class="card card-size card-item shadow">
+              <img src="images/mobile-1.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">OPPO 4765</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam aliquid, optio fuga illum natus maiores.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-size card-item shadow">
+              <img src="images/mobile-2.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">iPone 27</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt, nulla ut dolore sequi nam.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-size   card-item shadow">
+              <img src="images/mobile-3.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YAYA 4367</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quasi fugit laboriosam. Quasi, quas fuga.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <section class="container mt-5">
+        <h1 id="Bag">Brand New TV</h1>
+        <div class="card-deck ">
+            <div class="card card-item shadow">
+              <img src="images/tv-1.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LG NEW ANDROID</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-item shadow">
+              <img src="images/tv-2.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NEW INDIAN TV</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This card has supporting text below as a natural lead-in to additional content</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-item shadow">
+              <img src="images/tv-3.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BD TIGER TV</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-item shadow">
+                <img src="images/tv-1.png" class=" p-2 rounded mx-auto d-block card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">USA TV PRO </h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+                </div>
+              </div>
+          </div>
+    </section>
+    <section class="container d-flex justify-content-center align-items-center rounded mt-5 footer-sec">
+        <div class="text-center">
+        <h3>SUBSCRIBE MAIL</h3>
+        <h6>Enter your Email For New Brands</h6>
+        <input type="text" placeholder="Your email Here.." name="" id="">
+        <button class="btn catagory-btn" type="submit">SUBMIT</button>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <h1 id="Shoes">Computers World</h1>
+        <div class="card-deck  ">
+            <div class="card card-size-2  card-item shadow">
+              <img src="images/laftop-3.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">OPPO 4765</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam aliquid, optio fuga illum natus maiores.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-size-2  card-item shadow">
+              <img src="images/laptop-1.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">iPone 27</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt, nulla ut dolore sequi nam.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+            <div class="card card-size-2   card-item shadow">
+              <img src="images/laptop-2.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">YAYA 4367</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quasi fugit laboriosam. Quasi, quas fuga.</p>
+              </div>
+              <div class="card-footer">
+                <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="container mt-5">
+        
+        <div class="row  d-flex align-items-center">
+            <div class="form-bg col-md-6">
+                
+                <form>
+                    <h3>Your Details Submit</h3>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault02">Last name</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault03">City</label>
+                        <input type="text" class="form-control" id="validationDefault03" required>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault04">State</label>
+                        <select class="custom-select" id="validationDefault04" required>
+                          <option selected disabled value="">Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault05">Zip</label>
+                        <input type="text" class="form-control" id="validationDefault05" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </div>
+                    </div>
+                    <button class="btn catagory-btn btn-primary" type="submit">Submit form</button>
+                  </form>
+                </div>
+
+            
+            <div class="col-md-6">
+             <img src="images/happy girl-form.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </section>
+    <section class=" footer-bg container">
+        <div class="row">
+            <div class="col-sm">
+              <img src="images/logo.png" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis numquam quaerat laudantium eaque quibusdam delectus minus voluptas cumque corporis reprehenderit totam illo inventore explicabo in, voluptatibus repellat reiciendis nemo labore aspernatur cupiditate saepe quos unde? Fuga sit temporibus iste rem?</p>
+            </div>
+            <div class="col-sm">
+                <h3>More Details </h3>
+              <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Privacy & Policy</li>
+                  <li>Marketing Systems</li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <h3>Adress</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum dignissimos pariatur esse debitis, perspiciatis cumque dolore, provident reprehenderit sit sint similique eligendi dolorem neque, placeat nemo aperiam voluptate iusto libero!</p>
+            </div>
+          </div>
+          <footer>copyright &copy;Naeem Aziz Chowdhury</footer>
+          
+    </section>
+
+   
     
 
 

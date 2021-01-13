@@ -1,0 +1,56 @@
+body{font-family: 'Do Hyeon', sans-serif;
+
+}
+.mySlide{
+    background-color: #dda0eb;
+    border-radius:2em;
+    
+}
+.slide-image img{
+    height: 450px;
+    
+}
+.catagory-btn{
+    background-color:  #83079e;
+    border:0;
+    color: white;
+}
+.bi-color{
+    color:#83079e;
+}
+.card-size{
+    width: 100%;
+    height: 500px;
+    
+}
+.card-size img{
+    height: 60%;
+    width: 50%;
+    
+    
+}
+.footer-sec{
+    height: 200px;
+    background-color:#dda0eb;
+}
+.form-bg{
+    background-color:#dda0eb;
+    padding: 10px;
+    border-radius:5px;
+    margin-top:20px;
+    margin-bottom:30px;}
+
+    .footer-bg{
+        background-color:#faf9f8;
+        padding: 20px;
+
+    }
+    .footer-bg h3{
+        text-align:center;
+    }
+    .footer-bg img{
+        margin-left: 25%;
+    }
+    .footer-bg footer{
+        text-align: center;
+    }
