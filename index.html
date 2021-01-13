@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <title>ELECTRONICS BAR</title>
 </head>
 <body>
-    <section class="container">
+  <!--this is nav ber section-->
+    <section class="container p-0 my-nav sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -53,7 +54,7 @@
             </div>
           </nav>
     </section>
-    
+  <!--this is slide section -->  
     <section class="container mySlide mt-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -100,18 +101,10 @@
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
     </section>
-
+  <!-- this is category button section -->
     <section class="container  ">
         
         <div class="d-flex justify-content-center flex-wrap mt-3">
@@ -122,64 +115,72 @@
             </div> 
             <div class="col mt-2">
                 <div class=" rounded d-flex align-items-center justify-content-around">
-                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Laptops</p>
                 </div>
             </div> 
             <div class="col mt-2">
                 <div class=" rounded d-flex align-items-center justify-content-around">
-                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Smart Phone</p>
                 </div>
             </div> 
             <div class="col mt-2">
                 <div class=" rounded d-flex align-items-center justify-content-around">
-                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Televisions</p>
                 </div>
             </div> 
             <div class="col mt-2">
                 <div class=" rounded d-flex align-items-center justify-content-around">
-                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Computers</p>
+                    <p class=" catagory-btn btn btn-primary m-3"type="submit">Smart Tab</p>
                 </div>
             </div> 
         </div>
     </section>
+    <!-- this is phone card section -->
     <section class="container mt-5">
-        <h1 id="Shoes">Smart Android Phones</h1>
-        <div class="card-deck  ">
-            <div class="card card-size card-item shadow">
-              <img src="images/mobile-1.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+        <div class="d-flex">
+        <h1 id="Shoes" class=" ">Smart Android Phones</h1>
+        <button type="button" class="see-all-btn p-1 ml-auto btn btn-primary ">See All Products</button>
+        </div>
+      </div>
+        <div class="card-deck   ">
+            <div class="card  card-item shadow">
+              <img src="images/mobile-1.png" class="card-size p-2 rounded mx-auto d-block card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">OPPO 4765</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam aliquid, optio fuga illum natus maiores.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
-            <div class="card card-size card-item shadow">
-              <img src="images/mobile-2.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+            <div class="card  card-item shadow">
+              <img src="images/mobile-2.png" class="card-size p-2 rounded mx-auto d-block card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">iPone 27</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt, nulla ut dolore sequi nam.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
-            <div class="card card-size   card-item shadow">
-              <img src="images/mobile-3.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
+            <div class="card    card-item shadow">
+              <img src="images/mobile-3.png" class="card-size p-2 rounded mx-auto d-block card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">YAYA 4367</h5>
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quasi fugit laboriosam. Quasi, quas fuga.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
           </div>
     </section>
-    
+    <!-- this is tv card section -->
     <section class="container mt-5">
-        <h1 id="Bag">Brand New TV</h1>
+      <div class="d-flex">
+        <h1 id="Shoes" class=" ">Smart Televisions</h1>
+        <button type="button" class="see-all-btn p-1 ml-auto btn btn-primary ">See All Products</button>
+        </div>
         <div class="card-deck ">
             <div class="card card-item shadow">
               <img src="images/tv-1.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
@@ -187,7 +188,7 @@
                 <h5 class="card-title">LG NEW ANDROID</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
@@ -197,7 +198,7 @@
                 <h5 class="card-title">NEW INDIAN TV</h5>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This card has supporting text below as a natural lead-in to additional content</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
@@ -207,7 +208,7 @@
                 <h5 class="card-title">BD TIGER TV</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
@@ -217,23 +218,27 @@
                   <h5 class="card-title">USA TV PRO </h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer-bg card-footer">
                   <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
                 </div>
               </div>
           </div>
     </section>
+    <!-- this is subscription section -->
     <section class="container d-flex justify-content-center align-items-center rounded mt-5 footer-sec">
         <div class="text-center">
         <h3>SUBSCRIBE MAIL</h3>
         <h6>Enter your Email For New Brands</h6>
-        <input type="text" placeholder="Your email Here.." name="" id="">
+        <input class="p-1" type="text" placeholder="Your email Here.." name="" id="">
         <button class="btn catagory-btn" type="submit">SUBMIT</button>
         </div>
     </section>
-
+  <!-- this is laptop card section -->
     <section class="container mt-5">
-        <h1 id="Shoes">Computers World</h1>
+      <div class="d-flex">
+        <h1 id="Shoes" class=" ">Computer &  Laptops</h1>
+        <button type="button" class="see-all-btn p-1 ml-auto btn btn-primary ">See All Products</button>
+        </div>
         <div class="card-deck  ">
             <div class="card card-size-2  card-item shadow">
               <img src="images/laftop-3.png" class="p-2 rounded mx-auto d-block card-img-top" alt="...">
@@ -241,7 +246,7 @@
                 <h5 class="card-title">OPPO 4765</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam aliquid, optio fuga illum natus maiores.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
@@ -251,7 +256,7 @@
                 <h5 class="card-title">iPone 27</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sunt, nulla ut dolore sequi nam.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
@@ -261,13 +266,13 @@
                 <h5 class="card-title">YAYA 4367</h5>
                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quasi fugit laboriosam. Quasi, quas fuga.</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer-bg card-footer">
                 <span>This is for you , click please </span><button class="btn catagory-btn btn-primary"type="submit">Buy Now</button>
               </div>
             </div>
           </div>
     </section>
-
+  <!-- this is contact form section -->
     <section class="container mt-5">
         
         <div class="row  d-flex align-items-center">
@@ -320,6 +325,7 @@
             </div>
         </div>
     </section>
+    <!-- this is footer section  -->
     <section class=" footer-bg container mt-5">
         <div class="row">
             <div class="col-sm ">
@@ -341,22 +347,9 @@
             </div>
           </div>
           <footer>copyright &copy;Naeem Aziz Chowdhury</footer>
-          
     </section>
 
-   
-    
-
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
