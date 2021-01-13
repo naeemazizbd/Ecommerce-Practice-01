@@ -6,6 +6,9 @@ body{font-family: 'Do Hyeon', sans-serif;
     border-radius:2em;
     
 }
+.slide-title{
+    font-size:50px
+}
 .slide-image img{
     height: 450px;
     
@@ -68,4 +71,9 @@ body{font-family: 'Do Hyeon', sans-serif;
     .my-nav{
         background-color:#faf9f8;
         padding: 20px;
+    }
+   
+    .cartoon-img {
+        height: 100px;
+        
     }
